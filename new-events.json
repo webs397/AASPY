@@ -1,0 +1,72 @@
+[
+  {
+    "Source": {
+      "keys": [
+        {
+          "type": "BasicEvent",
+          "local": true,
+          "value": "testEvent",
+          "index": 0,
+          "idType": "IdShort"
+        }
+      ]
+    },
+    "SourceSemanticId": {
+      "keys": [
+        {
+          "type": "ConceptDescription",
+          "local": false,
+          "value": "https://admin-shell.io/tmp/AAS/Events/UpdateValueOutwards",
+          "index": 0,
+          "idType": "IRI"
+        }
+      ]
+    },
+    "ObservableReference": {
+      "keys": [
+        {
+          "type": "Submodel",
+          "local": true,
+          "value": "http://i40.customer.com/instance/1/1/AC69B1CB44F07935",
+          "index": 0,
+          "idType": "IRI"
+        }
+      ]
+    },
+    "ObservableSemanticId": {
+      "keys": [
+        {
+          "type": "Submodel",
+          "local": true,
+          "value": "http://i40.customer.com/instance/1/1/AC69B1CB44F07935",
+          "index": 0,
+          "idType": "IRI"
+        }
+      ]
+    },
+    "Timestamp": "2022-08-31T12:07:24.538255Z",
+    "Payloads": {
+      "$type": "ListOfAasPayloadBase",
+      "$values": [
+        {
+          "$type": "AasPayloadUpdateValue",
+          "Values": [
+            {
+              "Path": [
+                {
+                  "type": "Property",
+                  "local": true,
+                  "value": "RotationSpeed",
+                  "index": 0,
+                  "idType": "IdShort"
+                }
+              ],
+              "Value": "73"
+            }
+          ]
+        }
+      ]
+    },
+    "IsWellInformed": true
+  }
+]
